@@ -55,7 +55,7 @@ end
 def print_spiciest_foods(spicy_foods)
   spicy_foods.map do |food|
     if food[:heat_level] > 5
-      puts "#{food[:name]} (#{food[:cuisine]}) | Heat Level: #{'🌶 ' * food[:heat_level]}"
+      puts "#{food[:name]} (#{food[:cuisine]}) | Heat Level: #{'🌶' * food[:heat_level]}"
   # your code here
     end
   end
